@@ -45,9 +45,9 @@ export default function Home() {
   return (
     <div className="flex min-h-full flex-1 flex-col justify-center items-center px-6 py-12 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-        <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+        <div className="flex items-center flex-col mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
           <div className="hover:opacity-90 flex flex-col items-center space-y-7 mb-5 border rounded-md border-indigo-500 border-[5] border-radius-[30px] p-6 hover:border-indigo-400 w-[320px] h-[620px]">
-            <div className="relative h-[320px] w-[320px]">
+            <div className="relative h-[250px] w-[420px]">
             <Image src={user?.profilePic} alt={"img"} width={"120"} height={"120"} className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hover:w-hover-img rounded-full border border-[2] hover:border-[8] border-indigo-800 p-2 hover:p-1 hover:rounded-none"/>
             </div>
             <div className="space-y-6">

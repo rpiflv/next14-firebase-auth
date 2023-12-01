@@ -4,7 +4,7 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_APIKEY,
+  apiKey: process.env.NEXT_PUBLIC_REACT_FIREBASE_APIKEY,
   authDomain: "menhera-login.firebaseapp.com",
   projectId: "menhera-login",
   storageBucket: "menhera-login.appspot.com",
@@ -16,5 +16,7 @@ const firebaseConfig = {
 const app = getApps().length ? getApps()[0] : initializeApp(firebaseConfig);
 const auth = getAuth();
 const db = getFirestore(app);
+
+console.log(process.env.NEXT_PUBLIC_REACT_FIREBASE_APIKEY);
 
 export {app, auth, db };
