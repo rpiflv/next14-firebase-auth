@@ -17,6 +17,4 @@ const app = getApps().length ? getApps()[0] : initializeApp(firebaseConfig);
 const auth = getAuth();
 const db = getFirestore(app);
 
-console.log(process.env.NEXT_PUBLIC_REACT_FIREBASE_APIKEY);
-
 export {app, auth, db };
