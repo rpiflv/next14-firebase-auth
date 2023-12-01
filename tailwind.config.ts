@@ -13,8 +13,20 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      width: {
+        'hover-img': '150px' 
+      },
+      height: {
+        'hover-img': '150px' 
+      }
+  },
+  variants: {
+    extends: {
+      width: ['hover', 'focus'],
+      height: ['hover', 'focus'],
     },
   },
   plugins: [],
+}
 }
 export default config
