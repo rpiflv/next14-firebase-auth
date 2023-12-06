@@ -6,8 +6,7 @@ First create a .env file with the following data:
 ```
 NEXTAUTH_URL=http://localhost:3000
 NEXTAUTH_SECRET=[secret]
-FIREBASE_PRIVATE_KEY=[your appKey]
-NEXT_PUBLIC_REACT_FIREBASE_APIKEY=AIzaSyC_VrMtrnNEB1Ee-2t7XTMyhetG0HBCl7E
+NEXT_PUBLIC_REACT_FIREBASE_APIKEY=[your appKey]
 ```
 Then, run the development server:
 
